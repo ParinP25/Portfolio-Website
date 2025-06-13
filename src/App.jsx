@@ -154,7 +154,7 @@ const App = () => {
               title="Interactive Portfolio Website"
               description="Designed and developed a responsive, single-page web application to showcase projects and skills."
               tags={['React', 'JavaScript', 'HTML', 'TailWind CSS', 'Front-end', 'Back-end']}
-              githubLink="https://github.com/ParinP25/Sentiment-Analysis-for-Game-Review-Classification"
+              githubLink="https://github.com/ParinP25/Portfolio-Website" 
             /> 
             {/* Project Card 3 */}
             <ProjectCard
@@ -201,7 +201,7 @@ const App = () => {
           <h2 className="text-4xl font-bold text-center text-indigo-700 mb-10">Get in Touch</h2>
           <div className="max-w-xl mx-auto">
             <p className="text-center text-lg text-gray-700 mb-8">
-              Have a question or want to work together? Feel free to send me a message!
+              I'm always open to new opportunities and collaborations. Feel free to reach out with any questions or project inquiries!
             </p>
             <form onSubmit={handleSubmit} className="space-y-6">
               <div>
@@ -263,7 +263,7 @@ const App = () => {
       {/* Footer */}
       <footer className="bg-gray-800 text-white py-6 text-center mt-12">
         <div className="container mx-auto">
-          <p>&copy; {new Date().getFullYear()} Your Name. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Parin Pandya. All rights reserved.</p>
           <p className="mt-2 text-sm text-gray-400">Built with React and Tailwind CSS</p>
         </div>
       </footer>

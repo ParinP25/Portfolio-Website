@@ -1,0 +1,33 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-debug.log*
+
+# Diagnostic reports (https://nodejs.org/api/report.html)
+.report/
+
+# Node.js
+node_modules/
+dist/
+dist-ssr/
+*.local
+.env
+.env.*
+.idea/
+.vite/
+npm-shrinkwrap.json
+yarn.lock
+pnpm-lock.yaml
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Thumbnails
+.thumbnails/
